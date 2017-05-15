@@ -1,0 +1,11 @@
+SET CGO_ENABLED=1
+set GOOS=windows
+set GOARCH=amd64
+
+SET CGO_ENABLED=0
+set GOOS=linux
+set GOARCH=mipsle
+
+SET CGO_ENABLED=1
+set GOOS=linux
+set GOARCH=arm
